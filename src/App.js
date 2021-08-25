@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
-import SearchAppBar from "./Components/nav/nav";
+import SearchAppBar from "./Components/nav/SearchAppBar";
 import MovieList from "./Components/MovieList";
 import Add from "./Components/Add";
 
