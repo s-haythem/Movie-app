@@ -21,6 +21,7 @@ const useStyles = makeStyles((theme) => ({
   title: {
     flexGrow: 1,
     display: "none",
+    marginRight: theme.spacing(20),
     [theme.breakpoints.up("sm")]: {
       display: "block",
     },
@@ -35,7 +36,7 @@ const useStyles = makeStyles((theme) => ({
     marginLeft: 0,
     width: "100%",
     [theme.breakpoints.up("sm")]: {
-      marginLeft: theme.spacing(100),
+      marginLeft: theme.spacing(50),
       width: "auto",
     },
   },
@@ -121,6 +122,7 @@ export default function SearchAppBar({ setSearch, setRating }) {
           <Typography className={classes.title} variant="h5" noWrap>
             Wovies !
           </Typography>
+          <Rate setRating={setRating} style={{width:'200px', marginLeft:'20px'}} />
           <div className={classes.search}>
             <div className={classes.searchIcon}>
               <SearchIcon />
@@ -134,10 +136,12 @@ export default function SearchAppBar({ setSearch, setRating }) {
               }}
               inputProps={{ "aria-label": "search" }}
             />
+            
           </div>
+          
         </Toolbar>
       </AppBar>
-      <Rate setRating={setRating} />
+      
     </div>
   );
 }
