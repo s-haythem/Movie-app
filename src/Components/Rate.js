@@ -8,7 +8,7 @@ const Rate = ({setRating })=>{
     return (
         <div className="Rate" >
             
-        {arr.map((el,i)=> <button onClick={()=>setRating(i)} className= "star-btn">{el}</button>)}
+        {arr.map((el,i)=> <button onClick={()=>setRating(i+1)} className= "star-btn">{el}</button>)}
             
         </div>
     )}
