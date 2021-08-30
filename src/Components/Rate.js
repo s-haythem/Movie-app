@@ -3,7 +3,7 @@ import StarIcon from '@material-ui/icons/Star';
 
 
 const Rate = ({setRating })=>{
-    let arr = Array(6).fill(<StarIcon style={{color:'yellow'}}/>)
+    let arr = Array(5).fill(<StarIcon style={{color:'yellow'}}/>)
     
     return (
         <div className="Rate" >
