@@ -109,7 +109,7 @@ export default function Add({ addMovieHandler }) {
               onChange={addDescription}
             />
             <div>
-            <button className='btnIn' onClick={input}>Add</button>
+            <button className='btnIn' onClick={input} >Add</button>
             <button className='btnIn' onClick={handleClose}>close</button>
             </div>
             

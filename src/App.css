@@ -58,7 +58,7 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.star-btn4 {
+/* .star-btn4 {
   margin-left: 0;
   margin-right: 70px;
   background-color: transparent;
@@ -87,6 +87,14 @@ body {
   margin-right: 5px;
   background-color: transparent;
   border-radius: 5px;
+} */
+.star-btn {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  width: 30px;  
+  height: 30px;
+  background-color: rgb(133, 148, 118);
 }
 .inputAdd {
   height: 50px;

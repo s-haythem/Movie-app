@@ -9,7 +9,7 @@ function App() {
     {
       id: Math.random(),
       title: "Wonder Woman 1984",
-      rate: 4,
+      rate: 1,
       img: "https://image.tmdb.org/t/p/w300//8UlWHLMpgZm9bx6QYh0NFoq67TZ.jpg?v=0.0000001",
       genre: "Action, Fantasy, Adventure",
       description : "Wonder Woman comes into conflict with the Soviet Union during the Cold War in the 1980s and finds a formidable foe by the name of the Cheetah."
@@ -25,7 +25,7 @@ function App() {
     {
       id: Math.random(),
       title: "21 Jump Street",
-      rate: 5,
+      rate: 2,
       img: "https://image.tmdb.org/t/p/w300//8v3Sqv9UcIUC4ebmpKWROqPBINZ.jpg?v=0.0000001",
       genre: "Action, Comedy, Crime",
       description:"In high school, Schmidt was a dork and Jenko was the popular jock. After graduation, both of them joined the police force and ended up as partners riding bicycles in the city park. Since they are young and look like high school students, they are assigned to an undercover unit to infiltrate a drug ring that is supplying high school students synthetic drugs."
