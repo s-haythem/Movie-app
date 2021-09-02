@@ -126,3 +126,19 @@ body {
 .MovieCard:hover .description {
   transform: translateY(0%);
 } 
+.Trailer {
+  display: flex;
+  justify-content: space-around;
+  max-width: 90%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+.TrailerImg {
+  width: 30%;
+}
+.TrailerDetails {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

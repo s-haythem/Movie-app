@@ -10,6 +10,7 @@ import SearchIcon from "@material-ui/icons/Search";
 import Rate from "../Rate";
 import MenuItem from "@material-ui/core/MenuItem";
 import Menu from "@material-ui/core/Menu";
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -119,9 +120,11 @@ export default function SearchAppBar({ setSearch, setRating }) {
             <MenuItem onClick={handleClose}>Anime</MenuItem>
           </Menu>
 
+          <Link to='/' style={{color:'white', textDecoration:'none'}}>
           <Typography className={classes.title} variant="h5" noWrap>
             Wovies !
           </Typography>
+          </Link>
           <Rate setRating={setRating} style={{width:'200px', marginLeft:'20px'}} />
           <div className={classes.search}>
             <div className={classes.searchIcon}>

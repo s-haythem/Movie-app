@@ -38,7 +38,7 @@ export default function Add({ addMovieHandler }) {
       rate: rate,
       img: img,
       genre: genre,
-      description: description
+      description: description,
     });
   };
   const addTitle = (e) => {

@@ -9,7 +9,7 @@ const Rate = ({ setRating }) => {
       {arr.map((el, i) => (
         <button onClick={() => setRating(i+1)} className="star-btn">
           {el}
-        </button>
+        </button> 
       ))}
     </div>
   );

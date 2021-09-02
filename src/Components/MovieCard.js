@@ -1,5 +1,7 @@
 import React from "react";
 import StarIcon from '@material-ui/icons/Star';
+import { Link } from "react-router-dom";
+
 
 const MovieCard = ({ movie }) => {
   const array = [];
@@ -8,6 +10,7 @@ const MovieCard = ({ movie }) => {
   array2.length = 5 - movie.rate;
 
   return (
+    <Link to= {`/trailer/${movie.id}`} style={{textDecoration:'none'}} key={movie.id}>
     <div className="MovieCard">
       <img className="poster" src={movie.img} alt="poster" />
       <h4 className="title">{movie.title}</h4>
@@ -19,6 +22,7 @@ const MovieCard = ({ movie }) => {
       <p className="genre">{movie.genre}</p>
       <p className="description">{movie.description}</p>
     </div>
+    </Link>
   );
 };
 
